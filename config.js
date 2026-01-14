@@ -1,16 +1,5 @@
-// =================================================================================================
-// PAGE CONFIGURATION OBJECT
-// This file defines all the dynamic content for the case study page.
-// The `renderer.js` file reads this object to build the HTML.
-// To change text, images, or other content, edit the values in this file.
-// =_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_
 const config = {
   "globals": {
-    "companyName": "Shaleni Henriquez",
-    "mainCTAButtonText": "Book A Discovery Call",
-    "mainCTAButtonURL": "#contact",
-    "primaryColor": "#e3c379",
-    "accentColor": "#d9c6a2",
     "agents": [
       {
         "name": "Shaleni Henriquez",
@@ -26,12 +15,18 @@ const config = {
           }
         ]
       }
-    ]
+    ],
+    "companyName": "Shaleni Henriquez",
+    "mainCTAButtonText": "Book A Discovery Call",
+    "mainCTAButtonURL": "#contact",
+    "primaryColor": "#e3c379",
+    "accentColor": "#d9c6a2",
+    "facebookPixelId": ""
   },
   "header": {
     "tag": "CASE STUDY",
     "title": "How This Newly Engaged Couple Saved $34,888 on Their First Home in Milton Without Compromising on Quality",
-    "subheadline": "Found Their Move-In Ready Dream Townhouse in Just 5 Viewings—And Locked in the Perfect Closing Date"
+    "subheadline": "Found Their Move-In Ready Dream Townhouse in Just 5 Viewings, And Locked in the Perfect Closing Date"
   },
   "mainBox": {
     "summary": {
@@ -64,7 +59,8 @@ const config = {
         "Terrified of overpaying in an unpredictable market where every decision felt like a gamble with their future",
         "Worried about inheriting someone else's problems—desperate to find a well-cared-for home that wouldn't drain their savings with surprise repairs",
         "Overwhelmed by location options across multiple areas, paralyzed by the fear of choosing the wrong neighborhood for their growing family"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -78,7 +74,8 @@ const config = {
       ],
       "testimonial": {
         "quote": "\"\"Working with Shaleni changed everything for us. We came in feeling completely overwhelmed—everyone was telling us we couldn't afford Milton, that we'd have to move far away from our families or give up on our budget. Shaleni took the time to actually educate us on the market instead of just showing us houses. She helped us see possibilities we didn't know existed. Within one day of viewings, we found 'the one,' and she made sure we brought our parents back to see it too, which meant the world to us. The best part? We got it for way under asking, it's move-in ready, and we're staying close to everyone we love. She didn't just help us buy a house—she helped us start our married life together in the perfect place.\"\"<br><span>— Satisfied Client</span>"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -88,7 +85,8 @@ const config = {
       ],
       "image": {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1767755201164-Screenshot 2026-01-06 at 10.06.02 PM.png"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -100,7 +98,8 @@ const config = {
         "Stayed in Milton close to family and friends without blowing their budget—proving the \"choose one or the other\" myth wrong",
         "Secured their preferred closing timeline, giving them nearly two months to transition stress-free",
         "Achieved all three non-negotiables: 3 bedrooms, excellent condition, and under budget"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -109,7 +108,8 @@ const config = {
         "Market education isn't optional—it's your secret weapon. First-time buyers who invest time learning about neighborhoods, pricing trends, and market conditions make faster, smarter decisions and avoid overpaying.",
         "Don't let myths about affordability steal your dreams. The assumption that \"you can't afford Milton or Halton Region\" as a first-time buyer is exactly that—an assumption. Strategic buying in a balanced market opens doors you thought were closed.",
         "Stop waiting for the \"perfect time\" that doesn't exist. The right time to buy isn't about market timing—it's about whether homeownership aligns with YOUR life, YOUR goals, and YOUR readiness. This couple bought when it made sense for their engagement and future, not because a headline told them to."
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "ctaBanner",
@@ -121,24 +121,24 @@ const config = {
     }
   ],
   "footer": {
+    "privacyPolicy": {
+      "text": "Privacy Policy",
+      "href": "https://soldbyshaleni.com/site/privacy-terms"
+    },
     "logo": {
       "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1762795425395-shaleni headshot.png"
+    },
+    "secondaryLogo": {
+      "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/branding/logos/1761593023693-ShaleniHenriquezPartner_HORIZONTAL_Green.png"
     },
     "brokerageLabel": "Brokerage:",
     "brokerageName": "Real Broker Ontario Ltd Brokerage",
     "brokerageAddress": "70 Jutland",
-    "secondaryLogo": {
-      "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/branding/logos/1761593023693-ShaleniHenriquezPartner_HORIZONTAL_Green.png"
-    },
-    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary.",
-    "privacyPolicy": {
-      "text": "Privacy Policy",
-      "href": "https://soldbyshaleni.com/site/privacy-terms"
-    }
-  }
+    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary."
+  },
+  "githubRepo": "https://github.com/arslvn93/Case-Study-396"
 };
 
-// Export for Node.js environment (if applicable) or set for browser
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = config;
 } else if (typeof window !== 'undefined') {
