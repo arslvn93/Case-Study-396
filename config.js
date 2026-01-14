@@ -37,7 +37,7 @@ const config = {
       "subTitle": "Summary",
       "paragraphs": [
         "Meet a newly engaged couple standing at the threshold of their new life together. Like many first-time buyers, they faced a tough choice: stretch their commute to afford a home, or stay close to the people they love and risk breaking their budget. They refused to settle for either compromise.",
-        "Through professional service and market expertise, we delivered exceptional results for our client. <strong>SAVED $34,888 BELOW ASKING PRICE</strong> while the market still favored buyers Found their perfect home in just 5 viewings—no endless weekends of disappointment <strong>ZERO RENOVATIONS NEEDED</strong>: Moved into a completely turnkey, well-maintained 3-bedroom townhouse ready for their next chapter Stayed in Milton close to family and friends without blowing their budget—proving the \"choose one or the other\" myth wrong Secured their preferred closing timeline, giving them nearly two months to transition stress-free Achieved all three non-negotiables: 3 bedrooms, excellent condition, and under budget"
+        "Through professional service and market expertise, we delivered exceptional results for our client. <strong>SAVED $34,888 BELOW ASKING PRICE</strong> while the market still favored buyers Found their perfect home in just 5 viewings—no endless weekends of disappointment. <strong>ZERO RENOVATIONS NEEDED</strong>: Moved into a completely turnkey, well-maintained 3-bedroom townhouse ready for their next chapter. Stayed in Milton close to family and friends without blowing their budget—proving the \"choose one or the other\" myth wrong Secured their preferred closing timeline, giving them nearly two months to transition stress-free. Achieved all three non-negotiables: 3 bedrooms, excellent condition, and under budget"
       ]
     },
     "sidebar": {
@@ -72,9 +72,6 @@ const config = {
         "Brought their parents to the final two properties for a second opinion—turning their support system into part of the decision-making team",
         "Negotiated beyond price to secure their ideal closing date 52 days out, giving them time to plan their move without stress"
       ],
-      "testimonial": {
-        "quote": "\"\"Working with Shaleni changed everything for us. We came in feeling completely overwhelmed—everyone was telling us we couldn't afford Milton, that we'd have to move far away from our families or give up on our budget. Shaleni took the time to actually educate us on the market instead of just showing us houses. She helped us see possibilities we didn't know existed. Within one day of viewings, we found 'the one,' and she made sure we brought our parents back to see it too, which meant the world to us. The best part? We got it for way under asking, it's move-in ready, and we're staying close to everyone we love. She didn't just help us buy a house—she helped us start our married life together in the perfect place.\"\"<br><span>— Satisfied Client</span>"
-      },
       "listItems": []
     },
     {
